@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="uk" dir="ltr">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="css/style.min.css??=v=20250820111020">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/static/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#f02121">
+  <link rel="shortcut icon" href="/static/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#f02121">
+  <meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#f02121">
+  <title>openTrans</title>
+</head>
+
+  <body>
+
+    <div id="root" class="site">
+        
+        <header class="header js-header-sticky site__header">
+  <div class="container container--size-fluid header__container">
+    <a href="/" class="header__logo logo">
+      <picture class="logo__picture">
+        <img src="images/logo-brand-black-accent.svg" width="168" height="42" alt="openTrans">
+      </picture>
+    </a>
+    <div class="header__dropdown">
+      <nav class="header__nav" role="navigation">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#about" class="header__nav-link js-anchor">Про нас</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#services" class="header__nav-link js-anchor">Послуги</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#roadmap" class="header__nav-link js-anchor">Етапи роботи</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#cta" class="header__nav-link js-anchor">Запит вартості</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#reviews" class="header__nav-link js-anchor">Відгуки</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#faq" class="header__nav-link js-anchor">FAQ</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#contacts" class="header__nav-link js-anchor">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__language-switcher language-switcher" style="--language-switcher-amount: 2">
+        <div class="language-switcher__inner">
+          <button type="button" class="language-switcher__item language-switcher__item--toggle" aria-label="Open language menu">
+            <svg class="u-icon language-switcher__flag">
+              <use xlink:href="images/icons/icons.svg#flag-uk"></use>
+            </svg>
+            <span class="language-switcher__title">Uk</span>
+            <svg class="u-icon language-switcher__carret-icon">
+              <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+            </svg>
+          </button>
+          <div class="language-switcher__dropdown">
+            <ul class="language-switcher__list">
+              <li class="language-switcher__list-item">
+                <a href="#" class="language-switcher__item language-switcher__item--link">
+                  <svg class="u-icon language-switcher__flag">
+                    <use xlink:href="images/icons/icons.svg#flag-en"></use>
+                  </svg>
+                  <span class="language-switcher__title">En</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+        
+        <main role="main" class="site__main">
+          
+          <section class="intro">
+            <div class="intro__bg">
+              <div class="intro__bg-triangle-wrapper">
+                <svg width="140" height="832" viewBox="0 0 140 832" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="intro__bg-triangle"><path d="M140 340L0 832V677.926V383.182V154.074V0L140 340Z"/></svg>
+                <svg width="140" height="832" viewBox="0 0 140 832" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="intro__bg-triangle"><path d="M140 340L0 832V677.926V383.182V154.074V0L140 340Z"/></svg>
+                <svg width="140" height="832" viewBox="0 0 140 832" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="intro__bg-triangle"><path d="M140 340L0 832V677.926V383.182V154.074V0L140 340Z"/></svg>
+              </div>
+              <picture class="intro__bg-picture">
+                
+                <source srcset="images/intro-hero-767.jpg" media="(max-width: 767px)">
+                
+                <img src="images/intro-hero.jpg" alt="Ми перевозимо, ви — відпочиваєте" width="1920" height="1080">
+              </picture>
+              <video playsinline muted loop class="intro__bg-video"></video>
+            </div>
+            <div class="container intro__container">
+              <div class="intro__content">
+                <h1 class="intro__title" data-anim=".82,.2,fade-left">Ми перевозимо,<br>ви — відпочиваєте</h1>
+                <h2 class="fs-6 intro__subtitle" data-anim=".82,.4,fade-left">Автоматизований підхід до перевезення вантажу, широка географія поїздок і сучасний автопарк</h2>
+                
+                <div class="btn-group intro__btn-group" data-anim=".82,.6,fade-left">
+                  <div class="btn-group__list">
+                    <a href="#" class="btn btn--size-md btn--theme-accent-fill">
+                      <span class="btn__inner">
+                        <span class="btn__title">Замовити доставку</span>
+                      </span>
+                    </a>
+                    <a href="#" class="btn btn--size-md btn--theme-accent-transparent">
+                      <span class="btn__inner">
+                        <span class="btn__icon btn__icon--circle btn__icon--dir-rtl">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#play-btn"></use>
+                          </svg>
+                        </span>
+                        <span class="btn__title">Відео про нас</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          <section id="about" class="js-trigger-change-theme u-section u-section--about">
+            <div class="container u-section__container">
+              <h2 class="visually-hidden">Про нас</h2>
+              <div class="js-steps-about u-section__about">
+                <div class="row u-section__about-row">
+                  <div class="row__col--6 u-section__about-col u-section__about-col--map">
+                    <div class="u-section__about-map-wrapper">
+                      <img src="images/map-europa.svg" class="js-inlinesvg u-section__about-map" width="676" height="876" alt="Про нас">
+                    </div>
+                  </div>
+                  <div class="row__col--5 u-section__about-col u-section__about-col--content">
+                    <div class="u-section__about-card-list">
+                      <article class="about-card u-section__about-card">
+                        <div class="about-card__inner">
+                          <p class="u-title about-card__suptitle">4</p>
+                          <h3 class="about-card__title">роки досвіду</h3>
+                          <div class="about-card__content">
+                            <div class="u-content about-card__text">
+                              <p>Lorem ipsum dolor sit amet consectetur. Et scelerisque eu nisl mauris tortor enim nec dolor morbi. Mi adipiscing nulla quisque amet bibendum scelerisque odio pretium.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="about-card u-section__about-card">
+                        <div class="about-card__inner">
+                          <p class="u-title about-card__suptitle">+484</p>
+                          <h3 class="about-card__title">успішних рейсів</h3>
+                          <div class="about-card__content">
+                            <div class="u-content about-card__text">
+                              <p>Lorem ipsum dolor sit amet consectetur. Et scelerisque eu nisl mauris tortor enim nec dolor morbi. Mi adipiscing nulla quisque amet bibendum scelerisque odio pretium.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="about-card u-section__about-card">
+                        <div class="about-card__inner">
+                          <p class="u-title about-card__suptitle">+248</p>
+                          <h3 class="about-card__title">задоволених клієнтів</h3>
+                          <div class="about-card__content">
+                            <div class="u-content about-card__text">
+                              <p>Lorem ipsum dolor sit amet consectetur. Et scelerisque eu nisl mauris tortor enim nec dolor morbi. Mi adipiscing nulla quisque amet bibendum scelerisque odio pretium.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="u-title js-about-appeal u-section__about-appeal">Європа без меж</p>
+          </section>
+          
+          
+          <section id="services" class="js-trigger-change-theme u-section js-services u-section--services">
+            <div class="container u-section__container">
+              <header class="u-section__header">
+                <h2 class="u-section__title">Послуги</h2>
+              </header>
+              <div class="tab-nav u-section__control-tab">
+                <div class="tab-nav__inner">
+                  <div class="tab-nav__indicator"></div>
+                  <button type="button" class="js-tab-btn tab-nav__btn is-active" data-tab="#services-clients">
+                    <span class="btn__inner">
+                      <span class="btn__title">Для клієнта</span>
+                    </span>
+                  </button>
+                  <button type="button" class="js-tab-btn tab-nav__btn" data-tab="#services-carrier">
+                    <span class="btn__inner">
+                      <span class="btn__title">Для перевізника</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div class="services-list">
+                <div id="services-clients" class="js-tab-content is-show services-list__item">
+                  <div class="row services-list__row">
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Міжнародні автомобільні перевезення</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Доставляємо вантажі по Європі, Азії, Україні та СНД — швидко, безпечно й без зайвих клопотів. Працюємо з повними (FTL), збірними (LTL) і навіть небезпечними вантажами (ADR). Беремо на себе всі етапи: від логістики до супровідної документації.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Експедиційне обслуговування</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Повний контроль за доставкою — ми підберемо оптимальний транспорт, оформимо документи, проконтролюємо маршрут і вирішимо будь-які нестандартні ситуації без вашої участі. Ви отримуєте результат — ми все інше.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--6">
+                      <div class="services-list__card">
+                        <picture class="services-list__card-poster">
+                          
+                          <source srcset="images/services-poster-767.jpg" media="(max-width: 767px)">
+                          
+                          <img src="images/services-poster.jpg" alt="Наші послуги" width="786" height="283">
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Митне оформлення</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Беремо на себе підготовку всіх документів для імпорту й експорту. Оформлення EX, EUR.1, довіреностей, митний супровід у ЄС та інших країнах. Ви отримуєте швидке проходження кордону без зайвих затримок.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Безпека</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Ваш вантаж — під надійним захистом. Працюємо лише з перевіреними страховими компаніями та перевізниками. Усі ризики — на нас, ви отримуєте впевненість і спокій.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Доставка «від дверей до дверей»</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Максимальна зручність — ми самі заберемо вантаж у відправника та доставимо його прямо до дверей отримувача. Без зайвих етапів і витрат часу. Просто, швидко, безпечно.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Консультації з логістики та ЗЕД</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Допомагаємо ухвалити правильні рішення: оптимізація логістики, сертифікація, митне оформлення, ЗЕД. Працюємо з бізнесами будь-якого масштабу.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+                <div id="services-carrier" class="js-tab-content services-list__item">
+                  <div class="row services-list__row">
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Міжнародні автомобільні перевезення</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Доставляємо вантажі по Європі, Азії, Україні та СНД — швидко, безпечно й без зайвих клопотів. Працюємо з повними (FTL), збірними (LTL) і навіть небезпечними вантажами (ADR). Беремо на себе всі етапи: від логістики до супровідної документації.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Експедиційне обслуговування</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Повний контроль за доставкою — ми підберемо оптимальний транспорт, оформимо документи, проконтролюємо маршрут і вирішимо будь-які нестандартні ситуації без вашої участі. Ви отримуєте результат — ми все інше.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--6">
+                      <div class="services-list__card">
+                        <picture class="services-list__card-poster">
+                          
+                          <source srcset="images/services-poster-767.jpg" media="(max-width: 767px)">
+                          
+                          <img src="images/services-poster.jpg" alt="Наші послуги" width="786" height="283">
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Митне оформлення</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Беремо на себе підготовку всіх документів для імпорту й експорту. Оформлення EX, EUR.1, довіреностей, митний супровід у ЄС та інших країнах. Ви отримуєте швидке проходження кордону без зайвих затримок.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Безпека</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Ваш вантаж — під надійним захистом. Працюємо лише з перевіреними страховими компаніями та перевізниками. Усі ризики — на нас, ви отримуєте впевненість і спокій.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Доставка «від дверей до дверей»</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Максимальна зручність — ми самі заберемо вантаж у відправника та доставимо його прямо до дверей отримувача. Без зайвих етапів і витрат часу. Просто, швидко, безпечно.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="services-list__col row__col--3">
+                      <article class="u-box services-card services-list__card">
+                        <div class="services-card__inner">
+                          <h3 class="fs-5 services-card__title">Консультації з логістики та ЗЕД</h3>
+                          <div class="services-card__content">
+                            <div class="u-content services-card__text">
+                              <p>Допомагаємо ухвалити правильні рішення: оптимізація логістики, сертифікація, митне оформлення, ЗЕД. Працюємо з бізнесами будь-якого масштабу.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          <section id="roadmap" class="js-trigger-change-theme u-section u-section--roadmap">
+            <div class="container u-section__container">
+              <header class="u-section__header">
+                <h2 class="u-section__title">Схема роботи</h2>
+              </header>
+              <div class="tab-nav u-section__control-tab">
+                <div class="tab-nav__inner">
+                  <div class="tab-nav__indicator"></div>
+                  <button type="button" class="js-tab-btn tab-nav__btn is-active" data-tab="#roadmap-clients">
+                    <span class="btn__inner">
+                      <span class="btn__title">Для клієнта</span>
+                    </span>
+                  </button>
+                  <button type="button" class="js-tab-btn tab-nav__btn" data-tab="#roadmap-carrier">
+                    <span class="btn__inner">
+                      <span class="btn__title">Для перевізника</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div class="js-steps-roadmap u-section__roadmap">
+                <div class="row u-section__roadmap-row">
+                  <div class="row__col--6 u-section__roadmap-col u-section__roadmap-col--media">
+                    <div class="js-steps-roadmap-steps steps-roadmap u-section__roadmap-steps">
+                      <span class="js-steps-roadmap-circle steps-roadmap__circle"></span>
+                      <span class="js-steps-roadmap-truck steps-roadmap__truck">🚛</span>
+                      <ol class="js-steps-roadmap-dots steps-roadmap__dot-list"></ol>
+                    </div>
+                  </div>
+                  <div class="row__col--5 u-section__roadmap-col u-section__roadmap-col--content">
+                    <div id="roadmap-clients" class="js-tab-content is-show js-steps-roadmap-steps u-section__roadmap-list">
+                      <article class="u-box js-steps-roadmap-step step-card u-section__roadmap-card">
+                        <div class="step-card__inner">
+                          <h3 class="step-card__title">
+                            <a href="#" class="step-card__link">Запит від клієнта</a>
+                          </h3>
+                          <div class="step-card__content">
+                            <div class="u-content step-card__text">
+                              <p>Отримуємо від вас основну інформацію: маршрут, тип вантажу, об’єм, терміни доставки.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="step-card__arrow-icon">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                          </svg>
+                        </span>
+                      </article>
+                      <article class="u-box js-steps-roadmap-step step-card u-section__roadmap-card">
+                        <div class="step-card__inner">
+                          <h3 class="step-card__title">
+                            <a href="#" class="step-card__link">Аналіз та прорахунок варіантів</a>
+                          </h3>
+                          <div class="step-card__content">
+                            <div class="u-content step-card__text">
+                              <p>Пропонуємо оптимальні рішення: вартість, строки, тип транспорту (FTL / LTL), митні нюанси.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="step-card__arrow-icon">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                          </svg>
+                        </span>
+                      </article>
+                      <article class="u-box js-steps-roadmap-step step-card u-section__roadmap-card">
+                        <div class="step-card__inner">
+                          <h3 class="step-card__title">
+                            <a href="#" class="step-card__link">Узгодження та укладення договору</a>
+                          </h3>
+                          <div class="step-card__content">
+                            <div class="u-content step-card__text">
+                              <p>Фіксуємо всі умови в договорі або заявці — чітко, прозоро, без «підводних каменів».</p>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="step-card__arrow-icon">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                          </svg>
+                        </span>
+                      </article>
+                      <article class="u-box js-steps-roadmap-step step-card u-section__roadmap-card">
+                        <div class="step-card__inner">
+                          <h3 class="step-card__title">
+                            <a href="#" class="step-card__link">Оформлення документів</a>
+                          </h3>
+                          <div class="step-card__content">
+                            <div class="u-content step-card__text">
+                              <p>Готуємо транспортні та митні документи (CMR, інвойс, T1, EXA, EUR.1 тощо). За потреби — консультуємо.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="step-card__arrow-icon">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                          </svg>
+                        </span>
+                      </article>
+                      <article class="u-box js-steps-roadmap-step step-card u-section__roadmap-card">
+                        <div class="step-card__inner">
+                          <h3 class="step-card__title">
+                            <a href="#" class="step-card__link">Завантаження</a>
+                          </h3>
+                          <div class="step-card__content">
+                            <div class="u-content step-card__text">
+                              <p>Контролюємо своєчасне прибуття транспорту. Перевіряємо правильність оформлення всіх документів.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="step-card__arrow-icon">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                          </svg>
+                        </span>
+                      </article>
+                      <article class="u-box js-steps-roadmap-step step-card u-section__roadmap-card">
+                        <div class="step-card__inner">
+                          <h3 class="step-card__title">
+                            <a href="#" class="step-card__link">Перевезення та моніторинг</a>
+                          </h3>
+                          <div class="step-card__content">
+                            <div class="u-content step-card__text">
+                              <p>Відстежуємо вантаж 24/7. Тримаємо зв'язок з водієм і оперативно інформуємо вас про статус рейсу.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="step-card__arrow-icon">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                          </svg>
+                        </span>
+                      </article>
+                      <article class="u-box js-steps-roadmap-step step-card u-section__roadmap-card">
+                        <div class="step-card__inner">
+                          <h3 class="step-card__title">
+                            <a href="#" class="step-card__link">Доставка та вивантаження</a>
+                          </h3>
+                          <div class="step-card__content">
+                            <div class="u-content step-card__text">
+                              <p>Готуємо транспортні та митні документи (CMR, інвойс, T1, EXA, EUR.1 тощо). За потреби — консультуємо.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="step-card__arrow-icon">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                          </svg>
+                        </span>
+                      </article>
+                      <article class="u-box js-steps-roadmap-step step-card u-section__roadmap-card">
+                        <div class="step-card__inner">
+                          <h3 class="step-card__title">
+                            <a href="#" class="step-card__link">Закриття рейсу та&nbsp;документообіг</a>
+                          </h3>
+                          <div class="step-card__content">
+                            <div class="u-content step-card__text">
+                              <p>Отримуємо підписані CMR / акти, передаємо вам всі оригінали документів та фінансову звітність.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="step-card__arrow-icon">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                          </svg>
+                        </span>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        </main>
+        
+        <footer class="footer site__footer">
+  <div class="container container--size-md footer__container">
+  </div>
+</footer>
+        
+      <div class="popup" data-popup="popup-form" data-close-overlay>
+  <div class="popup__wrapper" data-close-overlay>
+    <div class="popup__content popup__content--size-md popup__content--theme-black">
+      <button type="button" class="js-button-close">
+        <svg class="u-icon btn-close__icon">
+          <use xlink:href="/images/icons/icons.svg#close"></use>
+        </svg>
+      </button>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <script src="js/app.min.js??=v=20250820111020"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const root = document.querySelector('.js-steps-roadmap');
+        if (!root) return;
+
+        const circle = root.querySelector('.js-steps-roadmap-circle');
+        const truck = root.querySelector('.js-steps-roadmap-truck');
+        const dotsList = root.querySelector('.js-steps-roadmap-dots');
+        const steps = root.querySelectorAll('.js-steps-roadmap-step');
+
+        if (!circle || !truck || !dotsList || steps.length === 0) return;
+
+        const rootStyles = getComputedStyle(document.documentElement);
+
+        function remToPx(value) {
+          if (value.endsWith('rem')) {
+            const number = parseFloat(value);
+            const fontSize = parseFloat(rootStyles.fontSize) || 16;
+            return number * fontSize;
+          } else if (value.endsWith('rem')) {
+            return parseFloat(value);
+          }
+          return 0;
+        }
+
+        const circleSize = remToPx(rootStyles.getPropertyValue('--circle-size').trim() || '480rem');
+        const dotSize = remToPx(rootStyles.getPropertyValue('--dot-size').trim() || '40rem');
+        const truckSize = remToPx(rootStyles.getPropertyValue('--truck-size').trim() || '32rem');
+        const headerHeight = remToPx(rootStyles.getPropertyValue('--header-height').trim() || '0rem');
+
+        const radius = circleSize / 2;
+        const centerX = radius;
+        const centerY = radius;
+        const dotHalf = dotSize / 2;
+        const truckHalf = truckSize / 2;
+
+        dotsList.innerHTML = '';
+        const dots = [];
+
+        function createDots() {
+          dotsList.innerHTML = '';
+          dots.length = 0;
+
+          steps.forEach((step, i) => {
+            const angle = (2 * Math.PI / steps.length) * i - Math.PI / 2;
+            const x = centerX + radius * Math.cos(angle);
+            const y = centerY + radius * Math.sin(angle);
+
+            const dot = document.createElement('li');
+            dot.className = 'step-dot';
+            dot.dataset.index = i;
+            dot.textContent = i + 1;
+            dot.style.position = 'absolute';
+            dot.style.left = `${x - dotHalf}rem`;
+            dot.style.top = `${y - dotHalf}rem`;
+            dot.style.width = `${dotSize}rem`;
+            dot.style.height = `${dotSize}rem`;
+            dot.style.borderRadius = '50%';
+            dot.style.display = 'flex';
+            dot.style.alignItems = 'center';
+            dot.style.justifyContent = 'center';
+            dot.style.cursor = 'pointer';
+            dot.style.userSelect = 'none';
+
+            dotsList.appendChild(dot);
+            dots.push(dot);
+
+            dot.addEventListener('click', () => {
+              const target = steps[i];
+              if (!target) return;
+              const topOffset = window.pageYOffset + target.getBoundingClientRect().top - headerHeight - window.innerHeight * 0.1;
+              window.scrollTo({
+                top: topOffset,
+                behavior: 'smooth',
+              });
+            });
+          });
+        }
+
+        function updateActiveState() {
+          const centerOffset = window.innerHeight * .64;
+          let activeIndex = -1;
+
+          steps.forEach((step, i) => {
+            const rect = step.getBoundingClientRect();
+            if (rect.top <= centerOffset) {
+              activeIndex = i;
+            }
+          });
+
+          if (activeIndex === -1) activeIndex = 0;
+
+          steps.forEach((step, i) => step.classList.toggle('is-active', i === activeIndex));
+          dots.forEach((dot, i) => dot.classList.toggle('is-active', i <= activeIndex));
+
+          const activeDot = dots[activeIndex];
+          if (activeDot) {
+            const dotRect = activeDot.getBoundingClientRect();
+            const circleRect = circle.getBoundingClientRect();
+
+            const dotX = dotRect.left - circleRect.left + dotHalf - truckHalf;
+            const dotY = dotRect.top - circleRect.top + dotHalf - truckHalf;
+
+            truck.style.position = 'absolute';
+            truck.style.left = '0';
+            truck.style.top = '0';
+            truck.style.transform = `translate(${dotX}rem, ${dotY}rem)`;
+            truck.style.transition = 'transform 0.2s linear';
+          }
+        }
+
+        createDots();
+        updateActiveState();
+
+        window.addEventListener('scroll', updateActiveState);
+        window.addEventListener('resize', () => {
+          createDots();
+          updateActiveState();
+        });
+      });
+    </script>
+  </body>
+</html>
